@@ -150,7 +150,7 @@ function App() {
     <div className="app">
       <Navbar />
       <main className="main">
-        <Routes location={location} key={location.pathname}>
+        <Routes location={location}>
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
