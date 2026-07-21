@@ -59,8 +59,8 @@ const translations = {
       langTitle: 'Langues',
       languages: [
         { name: 'Arabe', level: 'Langue maternelle' },
-        { name: 'Français', level: 'B2' },
-        { name: 'Anglais', level: 'B2' },
+        { name: 'Français, Anglais', level: 'B2' },
+        { name: 'Turc, Espagnol', level: 'Notion de base' },
       ],
     },
     work: {
@@ -289,8 +289,8 @@ const translations = {
       langTitle: 'Languages',
       languages: [
         { name: 'Arabic', level: 'Native' },
-        { name: 'French', level: 'B2' },
-        { name: 'English', level: 'B2' },
+        { name: 'French, English', level: 'B2' },
+        { name: 'Turkish, Spanish', level: 'Basics Knowledge' },
       ],
     },
     work: {
