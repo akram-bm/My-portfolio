@@ -1,0 +1,11 @@
+Model Information:
+* title:	SIMATIC S7-1200, CPU2
+* source:	https://sketchfab.com/3d-models/simatic-s7-1200-cpu2-83a800f6ca824d37859f575e4b505e31
+* author:	MaaB (https://sketchfab.com/MaaB)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SIMATIC S7-1200, CPU2" (https://sketchfab.com/3d-models/simatic-s7-1200-cpu2-83a800f6ca824d37859f575e4b505e31) by MaaB (https://sketchfab.com/MaaB) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,123 @@
+/* ============================================
+   CV Preview Page Styles
+   ============================================ */
+
+.cv-preview {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: var(--space-8);
+  animation: pageEnter 0.5s ease-out both;
+}
+
+.cv-preview__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.cv-preview__title {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.cv-preview__actions {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.cv-preview__container {
+  flex: 1;
+  width: 100%;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: var(--color-card-bg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  min-height: 0;
+}
+
+.cv-preview__embed {
+  width: 100%;
+  height: 100%;
+  min-height: calc(100vh - 200px);
+  border: none;
+  display: block;
+}
+
+/* ============================================
+   Responsive — Tablet
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .cv-preview {
+    padding: var(--space-6);
+  }
+
+  .cv-preview__title {
+    font-size: 40px;
+  }
+
+  .cv-preview__embed {
+    min-height: calc(100vh - 180px);
+  }
+}
+
+/* ============================================
+   Responsive — Mobile
+   ============================================ */
+
+@media (max-width: 768px) {
+  .cv-preview {
+    padding: var(--space-5);
+  }
+
+  .cv-preview__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+  }
+
+  .cv-preview__title {
+    font-size: 32px;
+  }
+
+  .cv-preview__actions {
+    width: 100%;
+  }
+
+  .cv-preview__actions .btn {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .cv-preview__embed {
+    min-height: calc(100vh - 250px);
+  }
+}
+
+/* ============================================
+   Responsive — Small Mobile
+   ============================================ */
+
+@media (max-width: 480px) {
+  .cv-preview {
+    padding: var(--space-4);
+  }
+
+  .cv-preview__title {
+    font-size: 28px;
+  }
+
+  .cv-preview__embed {
+    min-height: calc(100vh - 280px);
+  }
+}
