@@ -1,7 +1,7 @@
 {
   "homepage": "https://akram-bm.github.io/My-portfolio/",
   "name": "Portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
